@@ -1,0 +1,7 @@
+<!-- <img [src]="coracaoVazio">
+<img [src]="coracaoCheio">
+<img [src]="coracaoCheio"> -->
+
+<!-- <elementoHtml *ngFor="expressão"
+expressão define como recuperar acda um dos índices de um determinado array -->
+<img *ngFor="let coracao of coracoes" [src]="coracao.exibeCoracao()">
